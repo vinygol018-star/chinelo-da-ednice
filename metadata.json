@@ -1,0 +1,6 @@
+{
+  "name": "Chinelos da Ednice",
+  "description": "Aprenda a fazer lindos chinelos bordados artesanais sem sair de casa com aulas passo a passo, modelos exclusivos e orientação para vender.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

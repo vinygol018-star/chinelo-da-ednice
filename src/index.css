@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-roxo-principal: #7040A0;
+    --color-roxo-escuro: #4E2879;
+    --color-lavanda: #E9D9F7;
+    --color-rosa-principal: #E88DB8;
+    --color-rosa-claro: #FBE7F1;
+    --color-fundo: #FFF9FC;
+    --color-textos: #33243D;
+  }
+
+  html, body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom smooth styling */
+::selection {
+  background-color: #E9D9F7;
+  color: #4E2879;
+}
+
+/* Regras de largura total para telas pequenas */
+@media (max-width: 640px) {
+  .course-card,
+  .module-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .course-title {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
